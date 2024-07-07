@@ -1,7 +1,6 @@
-// WaveFunctionCollapse.js
-
-import { TILE_TYPES, VALID_NEIGHBORS } from '../config/TileConfig';
-import RandomUtils from '../utils/RandomUtils';
+// src/core/WaveFunctionCollapse.js
+import { TILE_TYPES, VALID_NEIGHBORS } from '../config/TileConfig.js';
+import RandomUtils from '../utils/RandomUtils.js';
 
 class WaveFunctionCollapse {
   constructor(width, height) {
