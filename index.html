@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rural Map Generator</title>
     <style>
-        body { margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f0f0f0; }
-        canvas { border: 1px solid #000; }
+        body { margin: 0; overflow: hidden; }
+        canvas { display: block; }
     </style>
 </head>
 <body>
-    <canvas id="gameCanvas"></canvas>
-    <script type="module" src="src/js/main.js"></script>
+    <canvas id="game-canvas"></canvas>
+    <script type="module" src="src/main.js"></script>
 </body>
 </html>
