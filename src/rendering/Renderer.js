@@ -1,6 +1,5 @@
 // src/rendering/Renderer.js
-
-import { TILE_SIZE } from '../config/GeneratorConfig';
+import { TILE_SIZE } from '../config/GeneratorConfig.js';
 
 class Renderer {
   constructor(canvas) {
