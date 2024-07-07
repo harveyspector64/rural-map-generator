@@ -1,5 +1,4 @@
 // src/core/MapGenerator.js
-
 import WaveFunctionCollapse from './WaveFunctionCollapse.js';
 import TileMap from './TileMap.js';
 import { TILE_TYPES, TILE_WEIGHTS } from '../config/TileConfig.js';
