@@ -1,5 +1,4 @@
 // src/main.js
-
 import MapGenerator from './core/MapGenerator.js';
 import Renderer from './rendering/Renderer.js';
 import AssetLoader from './assets/AssetLoader.js';
