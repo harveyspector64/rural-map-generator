@@ -1,9 +1,9 @@
 // src/main.js
 
-import MapGenerator from './core/MapGenerator';
-import Renderer from './rendering/Renderer';
-import AssetLoader from './assets/AssetLoader';
-import { MAP_WIDTH, MAP_HEIGHT } from './config/GeneratorConfig';
+import MapGenerator from './core/MapGenerator.js';
+import Renderer from './rendering/Renderer.js';
+import AssetLoader from './assets/AssetLoader.js';
+import { MAP_WIDTH, MAP_HEIGHT } from './config/GeneratorConfig.js';
 
 async function initializeGame() {
   const canvas = document.getElementById('game-canvas');
