@@ -11,8 +11,9 @@ class AssetLoader {
       return new Promise((resolve, reject) => {
         const img = new Image();
         img.onload = () => resolve({ [name]: img });
-        img.onerror = reject;
-        img.src = `/src/assets/images/${name}.png`;
+        img.onerror = (e) => reject(new Error(`Failed to load image: ${name}`));
+        // Update the path to use the correct GitHub Pages URL structure
+        img.src = `/rural-map-generator/src/assets/images/${name}.png`;
       });
     });
 
